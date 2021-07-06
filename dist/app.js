@@ -10892,7 +10892,7 @@ var livro_1 = __importDefault(require("./modelo/livro"));
 var livro = new livro_1.default('Dom Quixote', 108.80, 0.10);
 // console.log(livro.precoComDesconto())
 jquery_1.default('body').append("<h1>" + livro.nome + "</h1>");
-jquery_1.default('body').append("<h2>" + livro.precoComDesconto() + "</h2>");
+jquery_1.default('body').append("<h2>R$" + livro.precoComDesconto() + "</h2>");
 
 },{"./modelo/livro":3,"jquery":1}],3:[function(require,module,exports){
 "use strict";
